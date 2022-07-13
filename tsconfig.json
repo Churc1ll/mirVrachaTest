@@ -24,7 +24,7 @@
     "**/*.tsx",
     "components/Satelites.tsx",
     "data/satelites.js",
-    "data/tips.ts"
+    "data/tips.js"
   ],
   "exclude": [
     "node_modules"
