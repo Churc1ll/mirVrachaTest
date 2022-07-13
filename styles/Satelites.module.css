@@ -1,0 +1,101 @@
+.satelite_10 {
+  left: var(--distance);
+  top: 0;
+}
+.satelite_10:hover .satelite-message_10 {
+  opacity: 1;
+}
+.satelite_01 {
+  left: 0;
+  top: calc(-1 * var(--distance));
+}
+.satelite_01:hover .satelite-message_01 {
+  opacity: 1;
+}
+.satelite_-10 {
+  left: calc(-1 * var(--distance));
+  top: 0;
+}
+.satelite_-10:hover .satelite-message_-10 {
+  opacity: 1;
+}
+.satelite_0-1 {
+  left: 0;
+  top: var(--distance);
+}
+.satelite_0-1:hover .satelite-message_0-1 {
+  opacity: 1;
+}
+.satelite_-1-1 {
+  left: calc(-1 * var(--distance) + var(--radius));
+  top: calc(var(--distance) - var(--radius));
+}
+.satelite_-1-1:hover .satelite-message_-1-1 {
+  opacity: 1;
+}
+.satelite_11 {
+  left: calc(var(--distance) - var(--radius));
+  top: calc(-1 * var(--distance) + var(--radius));
+}
+.satelite_11:hover .satelite-message_11 {
+  opacity: 1;
+}
+.satelite_-11 {
+  left: calc(-1 * var(--distance) + var(--radius));
+  top: calc(-1 * var(--distance) + var(--radius));
+}
+.satelite_-11:hover .satelite-message_-11 {
+  opacity: 1;
+}
+.satelite_1-1 {
+  left: calc(var(--distance) - var(--radius));
+  top: calc(var(--distance) - var(--radius));
+}
+.satelite_1-1:hover .satelite-message_1-1 {
+  opacity: 1;
+}
+.satelite-messages {
+  opacity: 0;
+  width: 226px;
+  position: absolute;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #223867;
+  transition: 0.5s;
+}
+.satelite-message_01 {
+  left: 20px;
+  top: -41px;
+}
+.satelite-message_11 {
+  left: 146px;
+  top: 14px;
+}
+.satelite-message_10 {
+  left: 146px;
+  top: 28px;
+}
+.satelite-message_1-1 {
+  left: 156px;
+  top: 12px;
+}
+.satelite-message_0-1 {
+  text-align: center;
+  left: -56px;
+  top: 135px;
+}
+.satelite-message_-1-1 {
+  width: 150px;
+  text-align: right;
+  left: -185px;
+  top: 30px;
+}
+.satelite-message_-10 {
+  left: -138px;
+  top: 41px;
+}
+.satelite-message_-11 {
+  left: -152px;
+  top: 37px;
+}
